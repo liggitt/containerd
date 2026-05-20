@@ -167,3 +167,5 @@ require (
 )
 
 replace github.com/containerd/containerd/api => ./api
+
+replace k8s.io/cri-api => github.com/liggitt/cri-api v0.37.0-alpha.0.0.20260522154506-2074dba4266d
