@@ -165,3 +165,5 @@ require (
 	sigs.k8s.io/yaml v1.6.0 // indirect
 	tags.cncf.io/container-device-interface/specs-go v1.1.0 // indirect
 )
+
+replace k8s.io/cri-api => github.com/liggitt/cri-api v0.37.0-alpha.0.0.20260522154506-2074dba4266d
